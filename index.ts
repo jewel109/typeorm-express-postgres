@@ -2,7 +2,6 @@ import express from 'express';
 import userRoutes from './routes/userRoutes';
 import { AppDataSource } from './data-source';
 
-import "reflect-metadata"
 
 
 const app = express();
